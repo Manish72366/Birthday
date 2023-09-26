@@ -33,7 +33,7 @@ function updateBirthdateYear(distance, currentCountDown) { // you don't have lux
   if (distance / 86400000 < -0.25) { // 
     // Update the birthdate year to the next year
     const currentYear = new Date().getFullYear();
-    config.birthdate = `Sep 23, ${currentYear + 1}`;
+    config.birthdate = `Sep 26, ${currentYear + 1}`;
     
     // Update the countDown variable with the new date and time
     return new Date(`${config.birthdate} 00:00:00`).getTime();
